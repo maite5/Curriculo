@@ -1,0 +1,293 @@
+*{margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body {
+	width:900px;
+	margin:auto; 
+	
+}
+
+nav {  
+height:320px;
+background-color:lightblue;
+align-content: center;
+
+}
+
+nav.h3{
+	margin-top: 10px;
+}
+
+section #cursos{
+	height: 800px;
+}
+
+section #ejemplo1{
+	height: auto;
+}
+
+section #ejemplo2{
+	height: auto;
+}
+header {  
+height:200px;
+background-color:white;
+font-family: 
+}
+h2 {
+	margin-top: 50px;
+	font-style: italic;
+	font-size: 20px;
+
+}
+
+
+#CURSOS {
+	height: 175px;
+	width: 400px;
+	background-color:pink;
+	font-family: helvetica;
+
+
+	
+}
+#diseno {
+	height: 165px;
+	width: 400px;
+	background-color: lightpink; 
+	float: left;
+}
+footer {
+	height: 1300px;
+	background-color: white; 
+	
+}
+footer img { 
+		border-radius: 100px;
+		justify-content: space-around;
+		margin: top:300px;
+
+}
+h3 {
+	
+	background-color: lightpink;
+	display: inline-block; 
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+h1 {
+	display: inline-block;
+	background: pink;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+
+aside {
+height: 400px;
+background-color: white; 
+}
+}
+
+
+
+
+
+
+@media only screen and (mind-wind:600px) {  
+
+body {
+	width:600px;
+	margin:auto; 
+}
+
+nav {  
+height:200px;
+background-color:lightblue;
+}
+
+header {  
+height:200px;
+background-color:white;
+font-family: 
+}
+h2 {
+	margin-top: 50px;
+	font-style: italic;
+	font-size: 20px;
+
+}
+section {
+	height: 340PX;
+	width: 600px;
+	background-color:green;
+
+  }
+#CURSOS {
+	height: 175px;
+	width: 600px;
+	background-color:pink;
+	font-family: helvetica;
+
+
+	
+}
+#diseno {
+	height: 165px;
+	width: 600px;
+	background-color: lightpink; 
+	float: left;
+}
+footer {
+	height: 1600px;
+	background-color: white; 
+	
+}
+	img { 
+		border-radius: 100px;
+		justify-content: space-around;
+		margin: top:300px;
+
+}
+h3 {
+	
+	background-color: lightpink;
+	display: inline-block; 
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+h1 {
+	display: inline-block;
+	background: pink;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+
+aside {
+height: 400px;
+background-color: white; 
+}
+}
+
+
+
+@media only screnn and (min-width: 1400px)
+{
+body {
+	width:1200px; 
+	margin:auto; 
+}
+
+nav {  
+height:200px;
+background-color:lightblue;
+}
+
+header {  
+height:200px;
+background-color:white;
+font-family: 
+}
+h2 {
+	margin-top: 50px;
+	font-style: italic;
+	font-size: 20px;
+
+}
+section {
+	height: 340PX;
+	width: 1200px;
+	background-color:green;
+
+  }
+#CURSOS {
+	height: 175px;
+	width: 1200px;
+	background-color:pink;
+	font-family: helvetica;
+
+
+	
+}
+#diseno {
+	height: 165px;
+	width: 1200px;
+	background-color: lightpink; 
+	float: left;
+}
+footer {
+	height: 1600px;
+	background-color: white; 
+	
+}
+	img { 
+		border-radius: 100px;
+		justify-content: space-around;
+		margin: top:300px;
+
+}
+h3 {
+	
+	background-color: lightpink;
+	display: inline-block; 
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+h1 {
+	display: inline-block;
+	background: pink;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+
+aside {
+
+height: 1000px;
+background-color: yellow; 
+margin: 0;
+
+}
+form{
+
+	width: 450px;
+	margin:auto;
+	margin-top: 20px;
+	background: lightblue;
+	padding: 10px 20px; 
+	border-radius: 7px;
+	box-sizing: border-box;
+}
+
+input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;   
+}
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background:pink;
+	color: blue;
+	padding: 20px;
+}
+#boton:hover {
+	cursor: pointer;
+}
+@media(max-width: 480px) { 
+ form {
+ 	width: 100%;
+ }
+ 
